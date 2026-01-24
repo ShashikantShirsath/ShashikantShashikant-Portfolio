@@ -9,8 +9,6 @@ import ContactSection from '@/components/ContactSection'
 const Home = () => {
   return (
     <div className='min-h-screen bg-background text-foreground oveflow-x-hidden'>
-      {/* Theme Toggle */}
-      <ThemeToggle />
       {/* Background Effects */}
       <StarBackground />
       {/* Navbar */}

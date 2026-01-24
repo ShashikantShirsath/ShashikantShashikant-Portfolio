@@ -7,6 +7,13 @@ const ThemeToggle = () => {
 
     useState(() => {
         const savedTheme = localStorage.getItem('theme');
+        console.log("Saved Theme: ", savedTheme);
+        if(savedTheme === null) {
+            localStorage.setItem('theme', 'dark');
+            setIsDarkMode(false);
+            return;
+        }
+
         if (savedTheme === 'dark') {
             setIsDarkMode(true);
             document.documentElement.classList.add('dark');
@@ -30,7 +37,7 @@ const ThemeToggle = () => {
 
   return (
     <button onClick={handleToggle} className={cn(
-        "fixed max-sm:hidden top-4 right-5 z-50 p-2 rounded-full transition-colors duration-300",
+        "fixed top-4 right-5 z-50 p-2 py-1 rounded-full transition-colors duration-300",
         "focus:outline-hidden hover:cursor-pointer",
     )}>
         {isDarkMode ? (
