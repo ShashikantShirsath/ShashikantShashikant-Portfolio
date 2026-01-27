@@ -38,9 +38,9 @@ const HeroSection = () => {
 
                     {/* Summary */}
                     <p className='text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
-                        Full Stack Developer (MERN & PostgreSQL) with real-world experience in building
-                        scalable web applications, APIs, and modern user interfaces. Passionate about
-                        clean code, performance, and solving real-life problems through technology.
+                        Full Stack Software Engineer (MERN & PostgreSQL) with hands-on experience building 
+                        scalable web applications, high-performance APIs, and modern user interfaces. 
+                        Focused on clean code, performance optimization, and solving real-world problems.
                     </p>
 
                     {/* CTA */}

@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from 'lucide-react'
+import { Briefcase, Code, Database, Server, User } from 'lucide-react'
 import React from 'react'
 
 const AboutSection = () => {
@@ -12,14 +12,16 @@ const AboutSection = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
           <div className='space-y-6'>
-            <h3 className='text-2xl font-semibold'>Passionate Full Stack Developer (MERN & PostgreSQL)</h3>
+            <h3 className='text-2xl font-semibold'>Passionate Full Stack Software Engineer (MERN & PostgreSQL)</h3>
             <p className='text-muted-foreground'>
-              with over 5 years of experience building scalable web applications using React, Node.js,
-              Express, MongoDB, and PostgreSQL.
+              I’m a Full Stack Software Engineer with 1 year of hands-on experience in building scalable, 
+              production-ready web applications and RESTful APIs using React, Node.js, Express, MongoDB, 
+              and PostgreSQL. I enjoy working across the stack—from designing clean user interfaces to 
+              implementing secure and efficient backend systems.
             </p>
             <p className='text-muted-foreground'>
-              I'm passionate about creating elegant solutions to complex problems, and I'm constantly
-              learning new technologies to stay at the forefront of the industry.
+              I focus on writing clean, maintainable code, improving application performance, and solving 
+              real-life problems through technology while continuously learning and growing as a developer.
             </p>
 
             <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
@@ -40,30 +42,40 @@ const AboutSection = () => {
                   <Code className='h-6 w-6 text-primary' />
                 </div>
                 <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>Web Development</h4>
-                  <p className='text-muted-foreground'>Creating responsive websites and web applications with modern frameworks.</p>
+                  <h4 className='font-semibold text-lg'>Full Stack Web Development</h4>
+                  <p className='text-muted-foreground'>
+                    Designing and developing responsive, scalable web applications using modern frontend and backend 
+                    technologies with a strong focus on performance and maintainability.
+                  </p>
                 </div>
               </div>
             </div>
             <div className='gradient-border p-6 card-hover '>
               <div className='flex items-start gap-4'>
                 <div className='p-3 rounded-full bg-primary/10'>
-                  <User className='h-6 w-6 text-primary' />
+                  <Server className='h-6 w-6 text-primary' />
                 </div>
                   <div className='text-left'>
-                    <h4 className='font-semibold text-lg'>Web Development</h4>
-                    <p className='text-muted-foreground'>Creating responsive websites and web applications with modern frameworks.</p>
+                    <h4 className='font-semibold text-lg'>Backend & API Engineering</h4>
+                    <p className='text-muted-foreground'>
+                      Building secure and efficient RESTful APIs, handling authentication, database 
+                      design, and integrating SQL and NoSQL databases for real-world applications.
+                    </p>
                   </div>
               </div>
             </div>
             <div className='gradient-border p-6 card-hover '>
               <div className='flex items-start gap-4'>
                 <div className='p-3 rounded-full bg-primary/10'>
-                  <Briefcase className='h-6 w-6 text-primary' />
+                  <Database className='h-6 w-6 text-primary' />
                 </div>
                   <div className='text-left'>
-                    <h4 className='font-semibold text-lg'>Web Development</h4>
-                    <p className='text-muted-foreground'>Creating responsive websites and web applications with modern frameworks.</p>
+                    <h4 className='font-semibold text-lg'>Professional Experience & Collaboration</h4>
+                    <p className='text-muted-foreground'>
+                      Hands-on experience working in Agile environments, collaborating with teams, 
+                      contributing to real projects, participating in code reviews, and delivering reliable 
+                      software solutions.
+                      </p>
                   </div>
               </div>
             </div>

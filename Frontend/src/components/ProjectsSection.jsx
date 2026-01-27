@@ -4,31 +4,31 @@ import React from 'react'
 const projects = [
     {
         id: 1,
-        title: "Project One",
-        description: "Description for project one using react and tailwind.",
+        title: "ReferralX - Employee Referral Web App",
+        description: "A full-stack employee referral platform that connects employees and freshers through referral links. Built role-based dashboards for employees, HR, and candidates with referral tracking, job applications, and approval workflows.",
         image: "/projects/project1.png",
-        tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
-        demoUrl: "https://demo.projectone.com",
-        githubUrl: "https://github.com/username/projectone"
+        tags: ["React", "Node.js", "Express.js", "PostgreSQL", "REST APIs", "Tailwind CSS"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/ShashikantShirsath/ReferralX--Employee-Referral-Web-App"
     },
     {
         id: 2,
-        title: "Project One 2",
-        description: "Description for project one using react and tailwind.",
+        title: "Airbnb Replica – Property Booking Platform",
+        description: "A full-stack Airbnb-like application with authentication, property listings, reviews, and secure image uploads. Focused on modular architecture, validation, and optimized backend logic.",
         image: "/projects/project1.png",
-        tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
-        demoUrl: "https://demo.projectone.com",
-        githubUrl: "https://github.com/username/projectone"
+        tags: ["React", "Node.js", "Express", "MongoDB Atlas", "REST APIs", "Multer"],
+        demoUrl: "https://airbnb-replica-xagc.onrender.com/",
+        githubUrl: "https://github.com/ShashikantShirsath/Airbnb-Replica"
     },
     {
         id: 3,
-        title: "Project One 3",
-        description: "Description for project one using react and tailwind.",
-        image: "/projects/project1.png",
-        tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
-        demoUrl: "https://demo.projectone.com",
-        githubUrl: "https://github.com/username/projectone"
-    },
+        title: "Personal Portfolio Website",
+        description: "A modern, responsive personal portfolio website to showcase my projects, skills, and experience. Built with React and Tailwind CSS, featuring smooth animations, reusable components, and a clean, professional UI.",
+        image: "/projects/portfolio.png",
+        tags: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
+        demoUrl: "https://shashikantshirsath.github.io/ShashikantShashikant-Portfolio/",
+        githubUrl: "https://github.com/ShashikantShirsath/ShashikantShashikant-Portfolio"
+    }
 ]
 
 const ProjectsSection = () => {
