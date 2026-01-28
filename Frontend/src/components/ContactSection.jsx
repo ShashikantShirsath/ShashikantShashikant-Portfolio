@@ -28,12 +28,7 @@ const ContactSection = () => {
             <h2 className='text-3xl md:text-4xl font-bold mb-4 text-center'>Get In <span className='text-primary'> Touch</span></h2>
 
             <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
-                Have a project in mind or just want to say hello? Feel free to reach out to me via email at
-                <a 
-                    href="mailto:shashikantshirsath08@gmail.com" 
-                    className='text-primary hover:underline mx-1'>
-                        shashikantshirsath08@gmail.com
-                </a>
+                Have a project in mind or just want to say hello? Feel free to reach out to me via email
                 , or fill out the form below.
             </p>
 
@@ -48,7 +43,7 @@ const ContactSection = () => {
                                 <Mail className='h-6 w-6 text-primary'/> {" "}
                             </div>
                             <div>
-                                <h4 className='font-medium'> Email</h4>
+                                <h4 className='font-medium text-start'> Email</h4>
                                 <a 
                                     href="mailto:shashikantshirsath08@gmail.com"
                                     className='text-muted-foreground hover:text-primary transition-colors'>
@@ -62,7 +57,7 @@ const ContactSection = () => {
                                 <Phone className='h-6 w-6 text-primary'/> {" "}
                             </div>
                             <div>
-                                <h4 className='font-medium'> Phone</h4>
+                                <h4 className='font-medium text-start'> Phone</h4>
                                 <a 
                                     href="tel:+919356689459"
                                     className='text-muted-foreground hover:text-primary transition-colors'>
@@ -76,7 +71,7 @@ const ContactSection = () => {
                                 <MapPin className='h-6 w-6 text-primary'/> {" "}
                             </div>
                             <div>
-                                <h4 className='font-medium'> Location</h4>
+                                <h4 className='font-medium text-start'> Location</h4>
                                 <p className='text-muted-foreground hover:text-primary transition-colors'>
                                     Pune, Maharashtra, India
                                 </p>
@@ -94,7 +89,7 @@ const ContactSection = () => {
                             <a href='https://github.com/ShashikantShirsath' target='_blank'>
                                 <Github />
                             </a>
-                            <a href='#' target='_blank'>
+                            <a href='#'>
                                 <Instagram />
                             </a>
                         </div>
